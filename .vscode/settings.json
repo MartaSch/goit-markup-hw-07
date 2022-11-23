@@ -3,12 +3,11 @@
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "/goit-markup-hw-07/css",
-            "savePathReplacementPairs": null
+            "savePath": "/css",
         }
     ],
     "liveSassCompile.settings.excludeList": [
-        "/**/node_modules/**",
+        "/*/node_modules/*",
         "/.vscode/**"
     ],
     "liveSassCompile.settings.generateMap": true

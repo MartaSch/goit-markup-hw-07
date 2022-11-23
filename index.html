@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body class="body">
 <header class="header">
@@ -21,7 +21,7 @@
     <a class="logo" href="#"><span class="logo--blue">Web</span>Studio</a>
    <nav>
     <ul class="navigation" style="list-style:none">
-        <li class="navigation__elements navigation__item navigation__agency">Agencja</li>
+        <li class="navigation__elements navigation__item navigation__underline">Agencja</li>
         <li class="navigation__elements navigation__item">
             <a class="navigation__elements navigation__elements--link" href="portfolio.html">Portfolio</a>
         </li>
@@ -30,13 +30,13 @@
    </nav>
         </div>
     <ul class="contact-details" style="list-style:none">
-        <li class="contact-details__item">
+        <li class="contact-details--item">
             <a class="contact-details__elements" href="mailto:info@devstudio.com">
                 <svg class="contact-details__envelope-svg">
                     <use href="./images/ikony/icons.svg#icon-envelope"></use>
                 </svg>info@devstudio.com</a>
         </li>
-        <li class="contact-details__item">
+        <li class="contact-details--item">
             <a class="contact-details__elements" href="tel:+48111111111">
                 <svg class="contact-details__smartphone-svg">
                     <use href="./images/ikony/icons.svg#icon-smartphone"></use>
@@ -91,15 +91,15 @@
     <div class="container">   
         <h2 class="title-h2">Czym się zajmujemy</h2>
         <ul class="works-section" style="list-style:none">
-            <li class="works-section__item">
+            <li class="works-section--item">
         <img src="images/img_1.jpg" alt="mężczyzna pisze na komputerze" width="370" height="294"/>
         <figcaption class="works-section__description works-section__description--frame">aplikacje komputerowe</figcaption>
             </li>
-            <li class="works-section__item">
+            <li class="works-section--item">
         <img src="images/img_2.jpg" alt="kobieta z telefonem i komputerem" width="370" height="294"/>
         <figcaption class="works-section__description works-section__description--frame">aplikacje mobilne</figcaption>
             </li>
-            <li class="works-section__item">
+            <li class="works-section--item">
         <img src="images/img_3.jpg" alt="osoba trzyma tablet" width="370" height="294"/>
         <figcaption class="works-section__description works-section__description--frame">rozwiązania graficzne</figcaption>
             </li>
@@ -338,8 +338,8 @@
             </li>
         </ul>
                 </div>
-        <div class="footer-container--socialmedia-padding" >
-                <h5 class="socialmedia-title">dołącz do nas</h5>
+        <div class="footer__container--socialmedia-padding" >
+                <h5 class="footer-title">dołącz do nas</h5>
                 <ul class="footer-socialmedia" style="list-style:none">
             <li class="footer-socialmedia__ellipse-background footer-socialmedia__ellipse-background--item">
                 <a href="#">
@@ -372,13 +372,13 @@
         </ul>
         </div>
         <div class="newsletter">
-        <h5 class="newsletter__title">zapisz się do newslettera</h5>
+        <h5 class="footer-title">zapisz się do newslettera</h5>
         <label id="newsletter-mail">
             <input type="email" name="mail-newsletter" placeholder="E-mail" class="newsletter__input">
         </label>
         <button type="submit" class="newsletter__button">
-            <p class="newsletter_button-text">Zapisz się</p>
-            <svg class="newsletter_button-send-icon">
+            <p class="newsletter__button-text">Zapisz się</p>
+            <svg class="newsletter__button-send-icon">
                 <use href="./images/ikony/icons.svg#icon-icon-send"></use>
             </svg>
         </button>
